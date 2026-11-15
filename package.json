@@ -172,5 +172,12 @@
   "bin": {
     "camofox-browser": "./bin/camofox-browser.js",
     "camofox-browser-mcp": "./mcp/server.mjs"
+  },
+  "allowScripts": {
+    "prebuild-install": true,
+    "impit": true,
+    "better-sqlite3@13.0.1": true,
+    "fsevents@2.3.3": true,
+    "unrs-resolver@1.12.2": true
   }
 }
